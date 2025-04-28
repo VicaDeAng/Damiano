@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style>
+    table, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      padding: 5px;
+    }
+    .color {
+      background-color: lightgreen;
+    }
+  </style>
+</head>
 <body>
 <table>
   <table border="1">
@@ -12,11 +25,21 @@
   <td>6</td>
 </tr>
 <tr>
-  <th>2</th> <td>a</td> <td colspan="2">b, c</td>td> <td>d</td> <td>e</td>
+  <td>2</td>
+  <td>a</td>
+  <td class="color">b</td>
+  <td class="color">c</td>
+  <td>d</td>
+  <td>e</td>
 </tr>
-  <tr>
-    <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td rowspan="2">j, o</td>td>
-  </tr>
+<tr>
+  <td>3</td>
+  <td>f</td>
+  <td>g</td>
+  <td>h</td>
+  <td>i</td>
+  <td class="color">j</td>
+</tr>
   <tr>
     <th>4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td>
   </tr>
