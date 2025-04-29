@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabele</title>
   <style>
-    table, td, th {
-      border: 1px solid black;
-      border-collapse: collapse;
-      text-align: center;
-      padding: 5px;
-    }
-    .color {
-      background-color: lightgreen;
-    }
+    table{
+            border-collapse: collapse;
+            width: 25%;
+            margin 30px auto;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+        thead th {
+        background-color: #C9EEFE;
+        }
+        tbody th {
+        background-color: #C9EEFE;
+        }
+        td.jasne {
+        background-color: #EAF2DD;
+        }
+        td.ciemne {
+        background-color: #D7E3BD;
+        }
+        td.ciemniejsze {
+        background-color: #C2D69B;
+        }
   </style>
 </head>
 <body>
@@ -26,8 +45,8 @@
   <tr>
     <td>2</td>
     <td>a</td>
-    <td class="color">b</td>
-    <td class="color">c</td>
+    <td class="jasne">b</td>
+    <td class="jasne">c</td>
     <td>d</td>
     <td>e</td>
   </tr>
@@ -37,7 +56,7 @@
     <td>g</td>
     <td>h</td>
     <td>i</td>
-    <td class="color">j</td>
+    <td class="ciemne">j</td>
   </tr>
   <tr>
     <td>4</td>
@@ -45,13 +64,13 @@
     <td>l</td>
     <td>m</td>
     <td>n</td>
-    <td class="color">o</td>
+    <td class="ciemne">o</td>
   </tr>
   <tr>
     <td>5</td>
-    <td class="color">p</td>
-    <td class="color">q</td>
-    <td class="color">r</td>
+    <td class="najciemniejsze">p</td>
+    <td class="najciemniejsze">q</td>
+    <td class="najciemniejsze">r</td>
     <td>s</td>
     <td>t</td>
   </tr>
